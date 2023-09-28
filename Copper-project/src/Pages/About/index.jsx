@@ -182,7 +182,7 @@ Bizim haqqımızda
    <Typography variant="h5">
    Bizim dəyərlərimiz
    </Typography>
-   <Typography width="400px" >
+   <Typography className="info" width="400px" >
    İstehsalımız Ukraynada yerləşir, lakin 50-dən çox ölkədən olan müştərilər mağazamızdan alınan mallardan zövq alırlar.
    </Typography>
 

@@ -293,9 +293,7 @@ max-width: 160px !important;
   display: flex;
   gap: 20px !important;
  }
- .basketbox1{
-  width: 400px !important;
- }
+
  .basketlines{
   width: 380px !important;
  }
@@ -458,9 +456,16 @@ margin: auto !important;
     max-width: 100%;
   }
 
+
   .oders1boxz{
     width: 300px !important;
   }
+
+  .info{
+    width: 100% !important;
+  
+  }
+  
 
   .onest{
     width: 300px !important;
