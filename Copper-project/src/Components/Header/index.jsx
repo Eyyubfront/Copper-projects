@@ -17,7 +17,7 @@ import {
   import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
   import PersonIcon from '@mui/icons-material/Person';
   import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-  import Bg from "../../assets/Bg.png"
+  import Bg from "../../assets/BG.png"
   import logo from "../../assets/logo.png"
   import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 
