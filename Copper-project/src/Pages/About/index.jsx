@@ -19,7 +19,7 @@ import forest from "../../assets/forest.jpg"
 
 import vec1 from "../../assets/vectorone.jpg"
 import vec2 from "../../assets/vectortwo.jpg"
-import vec3 from "../../assets/vectorthree.jpg"
+import vec3 from "../../assets/Vectorthree.jpg"
 import Choose from "../../Components/Choose";
 
 import groupone from "../../assets/groupone.png"
