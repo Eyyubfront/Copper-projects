@@ -11,7 +11,7 @@ const Lots=({ tittle, src, text })=>{
     flexDirection="column" alignItems="center" >
 
       <Typography component="h4" fontWeight="bold" textAlign="center">
-          <Box border="1px solid" width="30px" sx={{backgroundColor:"white",color:"black",height:"26px"}} className="favortesd" position="absolute" top="30px" left="270px">
+          <Box border="1px solid" width="30px" sx={{backgroundColor:"white",color:"black",height:"26px"}} className="favortesd" position="absolute" top="30px" left="160px">
   <FavoriteBorderIcon className="iconstd"/>
           </Box>
         <img

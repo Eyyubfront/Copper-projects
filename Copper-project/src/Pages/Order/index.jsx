@@ -32,11 +32,11 @@ Yoxla
 
 
 
-<Stack className="sats" marginTop="30px" gap="30px" flexDirection="row" justifyContent="center">
+<Stack className="sats" marginTop="30px" gap="5%" flexDirection="row" justifyContent="center">
 
           <Stack flexDirection="column">
 
-<Box className="oders1box"  sx={{backgroundColor:"#E6E8E7"}} border="1px solid" padding="30px" width="1000px">
+<Box className="oders1box"  sx={{backgroundColor:"#E6E8E7"}} border="1px solid" padding="30px" width="750px">
 <Stack className="personsdsa" flexDirection="row" gap="20px">
   <Box sx={{backgroundColor:"white",color:"black"}} border="1px solid" height="50px" borderRadius="50%" width="100px" padding='30px'>
     <PersonIcon/>
@@ -55,7 +55,7 @@ Yoxla
 <Stack flexDirection="row" gap='10px'>
 <Link to="/ordernext">
 
-  <Button sx={{border:"1px solid #5E3928",color:"white",width:"200px",height:"50px",backgroundColor:"#5E3928"}}>
+  <Button sx={{border:"1px solid #5E3928",color:"white",width:"100px",height:"50px",backgroundColor:"#5E3928"}}>
 Daxil ol
   </Button>
 
@@ -63,7 +63,7 @@ Daxil ol
 
 
 
-  <Button className="qyed" sx={{border:"1px solid #5E3928",color:"black",width:"200px",height:"50px",backgroundColor:"white"}}>
+  <Button className="qyed" sx={{border:"1px solid #5E3928",color:"black",width:"150px",height:"50px",backgroundColor:"white"}}>
   Qeydiyyatdan kec
   </Button>
 </Stack>
