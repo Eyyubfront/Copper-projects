@@ -260,18 +260,19 @@ const Home = () => {
 
 
                 <Stack marginTop="10px" flexDirection="row" gap="10px">
-                  <Box className="person" sx={{ background: "white", color: "black" }} border="1px solid" height="70px">
+                  <Box className="person" sx={{ background: "white", color: "black" }} border="1px solid" marginTop="-10px" height="50px">
                     <FavoriteBorderIcon />
                   </Box>
 
-                  <Box sx={{ background: "white", color: "black" }} border="1px solid" height="70px"
+                  <Box sx={{ background: "white", color: "black" }} border="1px solid" marginTop="-10px"
+                   height="50px"
 
                   >
                     <PersonIcon />
                   </Box>
 
 
-                  <Box sx={{ background: "white", color: "black" }} border="1px solid" height="70px">
+                  <Box sx={{ background: "white", color: "black" }} border="1px solid" marginTop="-10px" height="50px">
                     <ShoppingCartIcon />
                   </Box>
                 </Stack>
@@ -1404,60 +1405,61 @@ const Home = () => {
         </Box>
         <Container>
 
-          <Stack alignItems="center">
-            <Container>
+        <Stack alignItems="center">
+          <Container>
 
-              <Grid
-                className="layhsbox"
-                my={2}
-                mb={5}
-                container
-                spacing={2}
-                justifyContent="center"
+            <Grid
+              className="layhsbox"
+              my={2}
+              mb={5}
+              container
+              spacing={2}
+              justifyContent="center"
+            >
+              <Swiper
+                padding="20px"
+                modules={[Navigation, Pagination, Scrollbar, A11y]}
+                spaceBetween={50}
+                slidesPerView={3}
+                navigation
+                pagination={{ clickable: true }}
+                scrollbar={{ draggable: true }}
+                onSwiper={(swiper) => console.log(swiper)}
+                onSlideChange={() => console.log('slide change')}
+
+
+                // autoplay={{
+                //   delay: 2500,
+                //   disableOnInteraction: false,
+                // }}
+                breakpoints={{
+                  320: {
+                    slidesPerView: 1,
+                  },
+                  768: {
+                    slidesPerView: 2,
+                  },
+                  992: {
+                    slidesPerView: 3,
+                  },
+                }}
+
               >
-                <Swiper
-                  padding="20px"
-                  modules={[Navigation, Pagination, Scrollbar, A11y]}
-                  spaceBetween={50}
-                  slidesPerView={3}
-                  navigation
-                  pagination={{ clickable: true }}
-                  scrollbar={{ draggable: true }}
-                  onSwiper={(swiper) => console.log(swiper)}
-                  onSlideChange={() => console.log('slide change')}
+                {istehsal.map((texnika) => (
+                  <SwiperSlide>
+                    <Grid key={texnika.id} item xs={12} sm={6} md={4} lg={3}>
+                      <Lots tittle={texnika.tittle} src={texnika.img} />
+                    </Grid>
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+            </Grid>
+          </Container>
 
-                  // autoplay={{
-                  //   delay: 2500,
-                  //   disableOnInteraction: false,
-                  // }}
-                  breakpoints={{
-                    320: {
-                      slidesPerView: 1,
-                    },
-                    768: {
-                      slidesPerView: 2,
-                    },
-                    992: {
-                      slidesPerView: 3,
-                    },
-                  }}
-
-                >
-                  {istehsal.map((texnika) => (
-                    <SwiperSlide>
-                      <Grid key={texnika.id} item xs={12} sm={6} md={4} lg={3}>
-                        <Lots tittle={texnika.tittle} src={texnika.img} />
-                      </Grid>
-                    </SwiperSlide>
-                  ))}
-                </Swiper>
-              </Grid>
-            </Container>
-
-            <Button className="outlindesbutons" sx={{ backgroundColor: "#5E3928", margin: "auto", color: "white", width: "200px" }} variant="outlined">Outlined</Button>
+          <Button className="outlindesbutons" sx={{ backgroundColor: "#5E3928", margin: "auto", color: "white", width: "200px" }} variant="outlined">Outlined</Button>
 
 
-          </Stack>
+        </Stack>
         </Container>
       </Box>
 

@@ -20,7 +20,7 @@ const Choose=()=>{
 
 <Box>
   
-<Stack justifyContent="space-between" flexDirection="column" alignItems="center" padding="100px" >
+<Stack justifyContent="space-between" flexDirection="column" alignItems="center" padding="10px" >
 
 
 <Stack className="choosecolumns" gap="100px"  flexDirection="row">

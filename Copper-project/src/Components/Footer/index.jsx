@@ -80,7 +80,7 @@ Naviqasiya
 <Stack className="katalqs">
 
 <Box>
-    <Stack gap="20px">
+    <Stack className="katq" gap="20px">
 
     <Typography variant="h4">
     Kataloq

@@ -13,10 +13,7 @@ width: 100%;
 background-color: #5E3928;
 }
 
-.swiper-button-prev, .swiper-rtl .swiper-button-next{
-  color: red;
 
-}
 .relatves{
   position: relative;
 }
@@ -404,7 +401,7 @@ justify-content: center;
   flex-direction: row !important;
   justify-content: center;
   align-items: center;
-  margin-top: -70%;
+  margin-top: -80%;
   gap: 20px;
   text-align: center;
  }
@@ -454,6 +451,10 @@ margin: auto !important;
 @media (max-width: 576px) {
   .Container {
     max-width: 100%;
+  }
+
+  .katq{
+margin-top: 70px;
   }
 
 
@@ -544,6 +545,14 @@ gap: 30px !important;
  .daxil2{
   max-width: 450px !important;
   margin-left: -2% !important;
+ }
+
+ .swiper-button-next{
+  display: none !important;
+ }
+
+ .swiper-button-prev{
+  display: none !important; 
  }
 
 }
