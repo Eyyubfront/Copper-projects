@@ -465,6 +465,11 @@ margin: auto !important;
     width: 100% !important;
   
   }
+
+  .boxsgap{
+    display: flex;
+    gap: 30px;
+  }
   
 
   .onest{

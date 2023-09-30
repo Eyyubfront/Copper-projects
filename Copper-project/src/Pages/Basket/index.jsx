@@ -18,7 +18,7 @@ const Basket=()=>{
 
   <Stack flexDirection="column" gap="20px">
 
-<Box className="basketbox1"  width="600px"  >
+<Box className="basketbox1"   >
 
 <Stack flexDirection="row" justifyContent="space-between">
   <Typography >

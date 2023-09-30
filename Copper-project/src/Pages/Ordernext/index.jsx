@@ -202,7 +202,7 @@ Kartla onlayn ödəniş
 </Stack>
 </Stack>
 
-<Stack flexDirection="column">
+<Stack className="boxsgap" flexDirection="column">
 
 
 <Stack width="400px" className="trash1" marginTop="10px" flexDirection="row"  justifyContent="space-between" alignItems="center">
